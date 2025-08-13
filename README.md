@@ -1,6 +1,7 @@
 # okpos-project
 
 ## 충돌 방지를 위한 가상환경 설정
+
 python -m venv .venv / 3.8버전 강제 : py -3.8 -m venv .venv
 
 source .venv/bin/activate / Windows : .venv\Scripts\activate.bat
@@ -25,9 +26,14 @@ docker-compose up
 
 localhost:8000/doc/
 
-
 ## 테스트 진행
 
 coverage run -m pytest
 
 coverage report
+
+## Postman Collection
+
+- 파일 위치: [postman/OKPOS.postman_collection.json](./postman/OKPOS.postman_collection.json)
+
+- Postman에서 Import → File 선택 후 해당 파일 불러오기
